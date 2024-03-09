@@ -3,7 +3,7 @@
 <?php
 include("menu.php");
 
-	$con = mysqli_connect("localhost","root","","hemant");
+	$con = mysqli_connect("localhost","root","","sahil");
 	$q = "select * from students";
 	$r = mysqli_query($con,$q);
 	while($r2 = mysqli_fetch_array($r))
