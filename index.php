@@ -7,7 +7,7 @@
 <?php
 	if($_POST)
 	{
-	$con = mysqli_connect("localhost","root","","hemant");
+	$con = mysqli_connect("localhost","root","","sahil");
 	$a = $_POST['unm'];
 	$b = $_POST['pass'];
 	$q = "select * from students where username = '$a' and password = '$b'";
